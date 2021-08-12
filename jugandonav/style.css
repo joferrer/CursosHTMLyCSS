@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 60.5%;
+    font-family: monospace;
+}
+h1{
+    font-size: 4rem;
+}
+span{
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #0CDDF5;
+}
+nav{
+
+    background-color: #F53418;
+}
+.nav-sect{
+    display: inline-block;
+    padding:0 5rem;
+}
+li{
+    display: inline-block;
+}
+.tercer{
+    display: inline-block;
+}
+.h-logo{
+    padding-right: 40rem;
+}
+.h-logo::after {    
+    content: "|";
+    text-align: right;
+}
+.gridie{
+    display: inline-block;
+    width: 35rem;
+    height: 100vh;
+    background-color: #0097A8;
+}
+.gridie-elemento{
+    display: block;
+    width: 30rem;
+    height: 20rem;
+    margin: 2rem auto;
+    border-radius: .5rem;
+    background-color: #0CDDF5;
+}
+
+.info{
+    display: inline-block;
+    position: absolute;
+    height: 100vh;
+    background-color: #26A822;
+    color:white;
+}

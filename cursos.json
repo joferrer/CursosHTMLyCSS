@@ -1,0 +1,98 @@
+[
+    {
+        "semestre": "Primer Semestre",
+        "cursos": [
+            {
+                "codigo": 1155101,
+                "titulo": "Calculo Diferencial",
+                "horas": 4,
+                "cred": 4,
+                "prereq": []
+            },
+            {
+                "codigo": 1155102,
+                "titulo": "Matematicas discretas",
+                "horas": 3,
+                "cred": 3,
+                "prereq": []
+            },
+            {
+                "codigo": 1155104,
+                "titulo": "Fundamentos de programacion",
+                "horas": 4 ,
+                "cred": 3 ,
+                "prereq" : []
+             },
+             {
+                "codigo": 1155105,
+                "titulo": "Introduccion ing sistemas",
+                "horas": 3 ,
+                "cred": 3 ,
+                "prereq" : []
+             },
+             {
+                "codigo": 1155106,
+                "titulo": "Comunicacion I",
+                "horas": 2 ,
+                "cred": 2 ,
+                "prereq" : []
+             },
+             {
+                "codigo": 1155108,
+                "titulo": "Intro vida universitaria",
+                "horas": 1 ,
+                "cred": 1 ,
+                "prereq" : []
+             }
+
+        ]
+    },
+    {
+        "semestre": "Segundo Semestre",
+        "cursos": [
+            {
+                "codigo": 1155201,
+                "titulo": "Calculo Integral",
+                "horas": 4,
+                "cred": 4,
+                "prereq": [1155101]
+            },
+            {
+                "codigo": 1155202,
+                "titulo": "Algebra lineal",
+                "horas": 3,
+                "cred": 3,
+                "prereq": [115101]
+            },
+            {
+                "codigo": 1155104,
+                "titulo": "Fisica mecanica",
+                "horas": 4 ,
+                "cred": 4 ,
+                "prereq" : [1155101]
+             },
+             {
+                "codigo": 1155204,
+                "titulo": "Programacion orientada a objetos",
+                "horas": 3 ,
+                "cred": 3 ,
+                "prereq" : [1155104]
+             },
+             {
+                "codigo": 1155206,
+                "titulo": "Comunicacion II",
+                "horas": 2 ,
+                "cred": 2 ,
+                "prereq" : [1155106]
+             },
+             {
+                "codigo": 1155108,
+                "titulo": "Semaninario integrador I",
+                "horas": 1 ,
+                "cred": 1 ,
+                "prereq" : [1155104]
+             }
+
+        ]
+    }
+]

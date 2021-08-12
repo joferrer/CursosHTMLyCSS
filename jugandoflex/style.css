@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 60.5%;
+}
+main{
+    width: 100vw;
+}
+span{
+    font-size: 2rem;
+}
+.opcion{
+    margin:0 3rem;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    background-color: aqua;
+}
+.menu{
+    display: flex;
+    background-color: #0097A8;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.principal{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+.navegator{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background-color: #F53418;
+}
+.contenido{
+    display:inline-block;
+    position: relative;
+}
